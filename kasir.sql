@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 27, 2020 at 04:05 AM
+-- Generation Time: May 27, 2020 at 04:14 AM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.2
 
@@ -44,10 +44,17 @@ CREATE TABLE `detail_transaksi` (
 
 CREATE TABLE `tb_admin` (
   `id_admin` int(255) NOT NULL,
-  `nama_admin` varchar(255) NOT NULL,
+  `username` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tb_admin`
+--
+
+INSERT INTO `tb_admin` (`id_admin`, `username`, `email`, `password`) VALUES
+(1, 'qonitha95', 'qonitha95@student.uns.ac.id', '$2y$10$BJnRYchVh7oifu3Up8/0tuT4v9zjccj93FLY8E7ZE.QlU/MzZulpK');
 
 -- --------------------------------------------------------
 
@@ -177,7 +184,7 @@ ALTER TABLE `detail_transaksi`
 -- AUTO_INCREMENT for table `tb_admin`
 --
 ALTER TABLE `tb_admin`
-  MODIFY `id_admin` int(255) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_admin` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tb_jenis`
