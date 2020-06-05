@@ -11,31 +11,36 @@
             <?php 
             $this->load->helper('form');
             
-            echo form_open(base_url('detail/simpan')) ?>
-
-              <div class="form-group">
-                <label for="text">id detail</label>
-                <input type="int" name="id_detail" class="form-control" placeholder="Masukkan id detail">
-              </div>
-
-              <div class="form-group">
-                <label for="text">id menu</label>
-                <input type="int" name="id_menu" class="form-control" placeholder="Masukkan id menu">
-              </div>
+            echo form_open(base_url('transaksi/simpan')) ?>
 
               <div class="form-group">
                 <label for="text">id transaksi</label>
-                <input type="int" name="id_transaksi" class="form-control" placeholder="Masukkan id transaksi">
+                <input type="int" name="id_detail" class="form-control" placeholder="Masukkan id transaksi">
               </div>
 
               <div class="form-group">
-                <label for="text">jumlah item</label>
-                <input type="int" name="jumlah_item" class="form-control" placeholder="Masukkan jumlah item">
+                <label for="text">tanggal transaksi</label>
+                <input type="date" name="tgl_transaksi" class="form-control" >
               </div>
 
               <div class="form-group">
-                <label for="text">harga</label>
-                <input type="text" name="harga" class="form-control" >
+                <label for="text">nama menu</label>
+                <input type="text" name="nama_menu" class="form-control" placeholder="Masukkan nama menu">
+              </div>
+
+              <div class="form-group">
+                <label for="text">total harga</label>
+                <input type="text" name="total_harga" class="form-control" placeholder="Masukkan harga">
+              </div>
+
+              <div class="form-group">
+                <label for="text">id kasir</label>
+                <input type="text" name="id_kasir" class="form-control" >
+              </div>
+
+              <div class="form-group">
+                <label for="text">id pelanggan</label>
+                <input type="text" name="id_pelanggan" class="form-control" >
               </div>
 
               <button type="submit" class="btn btn-md btn-success">Simpan</button>
