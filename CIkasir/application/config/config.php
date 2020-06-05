@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8080/Pemweblan-Project/CIkasir/';
+$config['base_url'] = 'http://localhost:81/1_tugaspemweblan/CICOBACOBA/CIkasir/Pemweblan-Project/CIkasir/';
 
 /*
 |--------------------------------------------------------------------------
