@@ -25,7 +25,7 @@
       </li>
 	  
 	  <li class="nav-item">
-        <a class="nav-link" href="<?= base_url(''); ?>">
+        <a class="nav-link" href="<?= base_url('transaksi'); ?>">
           <i class="fas fa-fw fa-money-bill-wave"></i>
           <span>Transaksi</span></a>
       </li>
