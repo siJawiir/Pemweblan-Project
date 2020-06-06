@@ -43,19 +43,19 @@
       </li>
 	  
 	  <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('menu'); ?>">
+        <a class="nav-link" href="<?= base_url('jenis'); ?>">
           <i class="fas fa-fw fa-pizza-slice"></i>
           <span>Jenis Menu</span></a>
       </li>
 	  
 	  <li class="nav-item">
-        <a class="nav-link" href="<?= base_url('user/petugas'); ?>">
+        <a class="nav-link" href="<?= base_url('petugas'); ?>">
           <i class="fas fa-fw fa-id-card-alt"></i>
           <span>Daftar Petugas</span></a>
       </li>
 	  
 	  <li class="nav-item">
-        <a class="nav-link" href="<?= base_url(''); ?>">
+        <a class="nav-link" href="<?= base_url('pelanggan'); ?>">
           <i class="fas fa-fw fa-users"></i>
           <span>Daftar Pelanggan</span></a>
       </li>
