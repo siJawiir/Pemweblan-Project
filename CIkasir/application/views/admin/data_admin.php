@@ -17,7 +17,7 @@
                 <thead>
                   <tr>
                     <th>No.</th>
-                    <th>id Admin</th>
+                    <th>Id Admin</th>
                     <th>Username</th>
                     <th>Email</th>
                     <th>Options</th>
